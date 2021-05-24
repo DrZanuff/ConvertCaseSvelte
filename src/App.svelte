@@ -10,13 +10,11 @@
 	}
 
 	function lowerCase(){
-		console.log("Wololox ");
 		output = input.toLowerCase();
 		document.getElementById("focus_id").focus();
 	}
 
 	function capitalCase(){
-		console.log("Wololo ");
 		output = input.replace(/(^\w{1})|(\s{1}\w{1})/g, match => match.toUpperCase());
 		document.getElementById("focus_id").focus();
 	}

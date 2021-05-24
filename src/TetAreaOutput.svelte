@@ -2,37 +2,37 @@
     export let input_text;
 </script>
 
-    <div>
-        <textarea readonly>{input_text}</textarea>
-    </div>
-    
-    <style>
-    
-        div{
-            display: flex;
-            justify-content: center;
-        }
-    
-        textarea{
-            width: 878px;
-            height: 150px;
-            margin-top: 23px;
-            background: #FFFFFF;
-            border: 5px solid #7E44F8;
-            box-sizing: border-box;
-            border-radius: 32px;
-            outline: none;
-            padding: 20px;
-            resize: none;
-    
-        }
-    
-        textarea::-webkit-scrollbar {
-            display: none;
-        }
-    
-        textarea{
-            -ms-overflow-style: none;
-            scrollbar-width: none;
-        }
-    </style>
+<div>
+    <textarea readonly>{input_text}</textarea>
+</div>
+
+<style>
+
+    div{
+        display: flex;
+        justify-content: center;
+    }
+
+    textarea{
+        width: 878px;
+        height: 150px;
+        margin-top: 23px;
+        background: #FFFFFF;
+        border: 5px solid #7E44F8;
+        box-sizing: border-box;
+        border-radius: 32px;
+        outline: none;
+        padding: 20px;
+        resize: none;
+
+    }
+
+    textarea::-webkit-scrollbar {
+        display: none;
+    }
+
+    textarea{
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+</style>
